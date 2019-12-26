@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Snell Roundhand';
+  src: url(SnellRoundhand-BlackScript.otf);
+}
+
+body {
+  background: black;
+  color: #7FBD32;
+}
+
+h1 {
+  color: gold;
+  font-family: 'Snell Roundhand';
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 250%;
+  padding-left: 100px;
+}
+
+h3 {
+  font-size: 200%;
+  padding-left: 50px;
+}
+
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding-left: 100px;
+  font-size: 110%;
+}
+
+p.birth {
+  font-size: 200%;
+}
+
+div.welcome {
+  text-align: center;
+}
+
+div.main {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+#  border: 5px solid blue;
+}
+
+div.left {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 30px;
+#  border: 2px solid red;
+  vertical-align: top;
+  width: 30%;
+}
+
+div.right {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+#  border: 2px solid white;
+  padding: 30px;
+  position: relative;
+  vertical-align: top;
+  width: 50%;
+}
+
+
+
+.content {
+  width: 100%;
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+
+.progress-bar {
+  width: 30%;
+  background-color: #212121;
+  padding:3px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+
+.progress-bar-fill {
+  display: block;
+  height: 22px;
+  background-color: #549D53;
+  border-radius: 3px;
+  transition: width 500ms ease-in-out;
+}
